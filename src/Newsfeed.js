@@ -48,7 +48,7 @@ class Newsfeed extends Component {
   render() {
     return (
       <div>
-        <h1 style={{ textAlign: 'center' }} >Infinite Scroll</h1>
+        <h1 style={{ textAlign: 'center', backgroundColor: 'lightGreen' }} >Infinite Scroll</h1>
         <hr />
         <InfiniteScroll
           dataLength={this.props.items.length}
