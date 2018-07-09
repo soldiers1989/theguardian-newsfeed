@@ -8,7 +8,9 @@ class App extends Component {
       <BrowserRouter>
         <Main />
       </BrowserRouter>
+      
     );
   }
+
 }
 export default App;

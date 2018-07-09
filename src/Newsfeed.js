@@ -8,6 +8,8 @@ import Article from './Article/Article'
 class Newsfeed extends Component {
 
   componentDidMount() {
+    var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    window.scrollTo(0, bodyScrollTop)
     if (this.props.items.length === 0) {
       this.fetchMoreData();
     }
